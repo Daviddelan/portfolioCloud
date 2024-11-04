@@ -7,7 +7,9 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import David from './components/David'; // Import David component
+import David from './components/David'; 
+import Ohemaa from './components/Ohemaa'; 
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
             </>
           } />
           <Route path="/david" element={<David />} />
+          <Route path="/ohemaa" element={<Ohemaa />} />
         </Routes>
         <Footer />
       </div>
