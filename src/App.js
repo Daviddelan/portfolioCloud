@@ -7,7 +7,8 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import David from './components/David'; // Import David component
+import David from './components/David'; 
+import Brian from './components/Brian';// Import David component
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
               <Contact />
             </>
           } />
-          <Route path="/david" element={<David />} />
+          <Route path="/brian" element={<Brian />} />
         </Routes>
         <Footer />
       </div>
