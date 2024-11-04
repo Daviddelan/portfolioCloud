@@ -8,6 +8,7 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import David from './components/David'; // Import David component
+import Arnold from './components/Arnold';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             </>
           } />
           <Route path="/david" element={<David />} />
+          <Route path="/david" element={<Arnold />} />
         </Routes>
         <Footer />
       </div>
