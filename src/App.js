@@ -10,6 +10,7 @@ import { Footer } from "./components/Footer";
 import David from './components/David';
 import Ohemaa from './components/Ohemaa';
 import Arnold from './components/Arnold';
+import Brian from './components/Brian';
 
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
           <Route path="/david" element={<David />} />
           <Route path="/ohemaa" element={<Ohemaa />} />
           <Route path="/arnold" element={<Arnold />} />
+          <Route path="/brian" element={<Brian />} />
+
 
         </Routes>
         <Footer />
