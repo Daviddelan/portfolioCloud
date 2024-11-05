@@ -4,102 +4,62 @@ const Brian = () => {
   return (
     <div className="container brian-page">
       <style>
-        {`
-          .brian-page {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            color: #fff;
-            padding-top: 100px; /* Adjust this value to match your navbar height */
-            background: linear-gradient(135deg, #333, #1a1a1a); /* Dark gradient background */
-            min-height: 100vh;
-          }
+        {`
+          .brian-page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #fff;
+            padding-top: 100px; /* Adjust this value to match your navbar height */
+          }
 
-          .profile-section {
-            text-align: center;
-            margin-bottom: 40px;
-          }
+          .profile-section {
+            text-align: center;
+            margin-bottom: 40px;
+          }
 
-          .profile-image {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-top: 20px;
-            border: 5px solid #6c63ff;
-          }
+          .profile-image {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid #fff;
+          }
 
-          .section-title {
-            font-size: 32px;
-            margin-top: 30px;
-            color: #fff;
-            background: linear-gradient(135deg, #6c63ff, #a855f7);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-align: center;
-          }
+          .section-title {
+            font-size: 24px;
+            margin: 30px 0;
+          }
 
-          .details-section {
-            display: flex;
-            justify-content: space-around;
-            width: 100%;
-            max-width: 800px;
-            margin-top: 40px;
-            text-align: center;
-          }
+          .details-section {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 40px;
+          }
 
-          .details-section .education, .details-section .skills {
-            width: 45%;
-            background-color: #262626;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-          }
+          .details-section .education, .details-section .skills {
+            width: 45%;
+          }
 
-          h2 {
-            font-size: 36px;
-            color: #e5e5e5;
-            margin: 20px 0;
-            font-weight: bold;
-          }
+          h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+          }
 
-          h3 {
-            font-size: 24px;
-            color: #e0e0e0;
-            margin-bottom: 20px;
-            font-weight: bold;
-            position: relative;
-          }
+          p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+          }
 
-          h3::after {
-            content: "";
-            display: block;
-            width: 50px;
-            height: 2px;
-            background: linear-gradient(135deg, #6c63ff, #a855f7);
-            margin: 10px auto 0;
-          }
-
-          p {
-            font-size: 16px;
-            line-height: 1.6;
-            color: #b3b3b3;
-          }
-
-          .contact-info {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 16px;
-            color: #999;
-          }
-
-          .skills p {
-            font-size: 18px;
-            margin-top: 10px;
-          }
-        `}
-      </style>
+          .contact-info {
+            margin-top: 20px;
+            font-size: 16px;
+          }
+        `}
+      </style>
       <div className="profile-section">
-{/*         <img src="/29E42FAC-AB7A-443A-8FBE-4361F85DB302.jpeg" alt="Profile" className="profile-image" /> */}
         <h2>Brian Kwame Asiedu Antwi</h2>
         <h3>About Me</h3>
         <p>
@@ -113,15 +73,15 @@ const Brian = () => {
         <div className="education">
           <h3>EDUCATION</h3>
           <p>Mfantsipin Secondary School</p>
-          <p>• GEneral Science</p>
+          <p>• General Science</p>
           <p>Ashesi University</p>
           <p>• Bachelor of Computer Science</p>
         </div>
 
         <div className="skills">
           <h3>SKILLS</h3>
-          <p>• Problem Solving</p>
-          <p>• Management</p>
+          <p>• Solutions Architect</p>
+          <p>• Comraderie</p>
           <p>• Communication</p>
           <p>• Teamwork</p>
         </div>
